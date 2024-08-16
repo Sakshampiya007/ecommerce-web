@@ -2,6 +2,7 @@ import { Search, ShoppingCartOutlined } from '@mui/icons-material'
 import React from 'react'
 import { Badge } from '@mui/material'
 
+
 const Navbar = () => {
     const style = 'text-[14px] ml-[25px] cursor-pointer'
     return (
@@ -22,6 +23,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 {/* logo  */}
+
                 <div className='center flex-1 text-center  Text-bold '>
                     <div className='logo font-bold text-lg cursor-pointer'>Summer Kings</div>
                 </div>

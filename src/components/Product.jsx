@@ -9,7 +9,7 @@ const Product = ({ item }) => {
     const handleHoverExit = () => {
         setHoverEffects(' opacity-0')
     }
-    const iconStyle = 'w-[40px] h-[40px] flex items-center justify-center bg-white rounded-full m-3 cursor-pointer'
+    const iconStyle = 'w-[40px] h-[40px] flex items-center justify-center bg-white rounded-full m-3 cursor-pointer hover:bg-[#894af3] hover:text-white hover:scale-[1.1] ease-in duration-100 cursor-pointer'
 
 
     return (
